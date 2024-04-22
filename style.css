@@ -1,0 +1,52 @@
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: darkorange;
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    background-color: deepskyblue;
+    padding-left: 1rem;
+}
+
+.text{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+
+}
+#map {
+    margin-top: 5px;
+    height: 100%;
+}
+.btn{
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    font-weight: bold;
+    color: black;;
+    background-color: orange;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: #333;
+    color: orange;
+}
+#distance{
+    font-weight: bold;
+    color: orangered;
+    padding-left: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
